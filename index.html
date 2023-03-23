@@ -1,32 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta
+      name="description"
+      content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+  </head>
+  <body>
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="img/logo.png" />
+      </a>
+      <div>
+        <p>
+          Данная верстка, была реализована пользователем в рамках обучающего телеграм канал
+          <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+        </p>
+        <p>
+          При помощи
+          <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+          пользователь получил оплату за верстку этого макета.
+        </p>
+      </div>
     </div>
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+      <!-- Header -->
+      <header class="header">
+        <div class="header__title">Sign up for our newsletter to get 10% off your first order</div>
+        <div class="header__info">
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item"><a class="header__link" href="">Shop</a></li>
+              <li class="header__item"><a class="header__link" href="">About</a></li>
+              <li class="header__item"><a class="header__link" href="">Strange Mind Blog</a></li>
+            </ul>
+          </nav>
+          <figure class="header__logo">
+            <img src="./img/logo1.png" alt="logo image" />
+          </figure>
+          <div class="header__cart">
+            <a class="header__link" href="">Cart</a>
+          </div>
+        </div>
+      </header>
+      <!-- Header -->
+      <!-- Section Elixirs -->
+      <section class="elixirs">
+        <div class="elixirs__title">Potent Plant Elixirs for Body & Spirit</div>
+        <div class="elixirs__text">
+          Tinctures of balancing adaptogens, healing cannabinoids (CBD, CBDa, CBN), and
+          mood-enhancing terpenes
+        </div>
+        <button class="elixirs__btn">Shop our Products</button>
+      </section>
+      <!-- Section Elixirs -->
+      <!-- Section Forbes -->
+      <section class="forbes">
+        <div class="forbes__img-bg"></div>
+        <div class="forbes__figures">
+          <figure class="forbes__img-popsugar">
+            <img src="./img/popsugar.png" alt="popsugar image" />
+          </figure>
+          <figure class="forbes__img-fast-company">
+            <img src="./img/fast-company.png" alt="fast company image" />
+          </figure>
+        </div>
+      </section>
+      <!-- Section Forbes -->
+      <!-- Sectionb Day-Night -->
+      <section class="day-night">
+        <div class="day-night__day">
+          <figure class="day-night__img">
+            <img src="./img/plus.png" alt="plus image" />
+          </figure>
+          <div class="day-night__block">
+            <div class="day-night__title">Meet Good Day</div>
+            <div class="day-night__text-day">
+              Anxiety soothing full spectrum hemp oil (CBD, CBDa) and energizing adaptogenic herbs
+              in our daytime tincture
+            </div>
+            <button class="elixirs__btn">Shop Day</button>
+          </div>
+        </div>
+        <div class="day-night__night">
+          <figure class="day-night__img">
+            <img src="./img/plus.png" alt="plus image" />
+          </figure>
+          <div class="day-night__block">
+            <div class="day-night__title">Meet Good Night</div>
+            <div class="day-night__text-night">
+              Our nighttime CBD tincture for sleep support, with calming herbs, immune-enhancing
+              adaptogens, and stress-relieving cannabinoids (CBD, CBN)
+            </div>
+            <button class="elixirs__btn">Shop Night</button>
+          </div>
+        </div>
+      </section>
+      <!-- Section Day-Night -->
+      <!-- Section Love It -->
+      <section class="love-it">
+        <div class="love-it__logo">Prismatic Reviews</div>
+        <div class="love-it__quote">
+          <div class="love-it__title">“Love It!”</div>
+          <div class="love-it__text">
+            I honestly was very skeptical of CBD benefits. But decided it was worth a try since
+            there were so many amazing reviews. I am so happy I gave it a shot. I am close to done
+            with my first two bottles and I have seen a noticeable difference in a lot of aspects of
+            my life. I am a lot more focused, I am less achy throughout the day, less anxious. The
+            night time oil gets me nice and relaxed and ready for bed and makes me feel nice and
+            cozy. I am now obsessed and will definitely be buying again and have recommended to all
+            of my friends.
+          </div>
+          <div class="love-it__author">Brittni M.</div>
+        </div>
+      </section>
+      <!-- Section Love It -->
+      <!-- Section Less Srress -->
+      <section class="less-stress">
+        <div class="less-stress__block">
+          <div class="less-stress__info">
+            <div class="less-stress__title">Less Stress. More Vibrancy.</div>
+            <div class="less-stress__text">
+              <p>
+                By healing your body’s nervous and immune systems, our adaptogen CBD oil drops and
+                infusions provide natural stress relief and better sleep.
+              </p>
+              <p>
+                We consulted the wisdom of Master Herbalists, Ph.D. Chemists, and Cannabis Experts
+                to develop this ﬁrst-of-its-kind formula-- adaptogens, non-psychoactive cannabis,
+                edible essential oils, and immune-lifting mushrooms are in one supercharged elixir.
+              </p>
+              <p>
+                Take it now for instant stress or insomnia relief, and take it long term to let the
+                power of plants help you achieve optimal health.
+              </p>
+            </div>
+          </div>
+          <figure class="less-stress__img">
+            <img src="./img/less-stress.png" alt="less stress image" />
+          </figure>
+        </div>
+      </section>
+      <!-- Section Less Srress -->
+      <!-- Section Approach -->
+      <section class="approach">
+        <div class="approach__block">
+          <div class="approach__title">A Prismatic Approach to Stress Relief</div>
+          <div class="approach__info">
+            <div class="approach__btns">
+              <button class="approach__btn">Adaptogenic Herbs & Mushrooms</button>
+              <figure class="approach__spring">
+                <img src="./img/spring.png" alt="spring image" />
+              </figure>
+              <button class="approach__btn">Cannabinoids</button>
+              <figure class="approach__spring">
+                <img src="./img/spring.png" alt="spring image" />
+              </figure>
+              <button class="approach__btn">Edible Essential Oils</button>
+            </div>
+            <div class="approach__why">
+              <figure class="approach__img">
+                <img src="./img/why.png" alt="why image" />
+              </figure>
+              <div class="approach__text">
+                Adaptogens naturally heal the body’s response to stress. Why? These non-toxic herbs
+                (think Ashwagandha, Rhodiola, Reishi Mushroom, and White Asian Ginseng) flourish in
+                stressful environmental conditions. Their resilience transfers to your body, so you
+                can better adapt to your environmental stressors.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Approach -->
+      <!-- Section Hemp -->
+      <section class="hemp">
+        <figure class="hemp__img">
+          <img src="./img/hemp.png" alt="hemp image" />
+        </figure>
+        <div class="hemp__info">
+          <div class="hemp__title">Not Your Average Hemp</div>
+          <div class="hemp__text">
+            Our hemp is organically grown and then expertly extracted using the whole plant- mainly
+            the flower, not just stalks and leaves. This creates a potent, ultra-pure, full-spectrum
+            extract with cannabinoids, terpenes, and flavonoids. Other hemp extraction methodologies
+            damage the plant in favor of quick mass production. We take care of our hemp by
+            processing it slowly to yield the most efficacious medicine possible.
+          </div>
+          <div class="hemp__links">
+            <div class="hemp__links-left">
+              <p>
+                <a class="hemp__link" href="#">Organic Full Spectrum Hemp</a>
+              </p>
+              <p>
+                <a class="hemp__link" href="#">Premium Extraction</a>
+              </p>
+            </div>
+            <div class="hemp__links-right">
+              <p>
+                <a class="hemp__link" href="#">Potent Medicinal Cannabinoid Profile</a>
+              </p>
+              <p>
+                <a class="hemp__link" href="#">No High, Just Bliss</a>
+              </p>
+            </div>
+          </div>
+          <div class="hemp__btn">
+            <button class="elixirs__btn">Shop our Products</button>
+          </div>
+        </div>
+      </section>
+      <!-- Section Hemp -->
+      <!-- Section -->
+      <section class="press"></section>
+      <!-- Section -->
+      <!-- Section -->
+      <footer class="footer"></footer>
+      <!-- Section -->
     </div>
-
-</body>
+  </body>
 </html>
