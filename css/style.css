@@ -24,6 +24,30 @@ input:hover {
   cursor: pointer;
 }
 
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--red);
+}
+
+button {
+  transition: background-color 0.2s ease;
+}
+
+input {
+  transition: border 0.2s ease;
+}
+
+button:hover {
+  background: var(--red);
+}
+
+input:hover {
+  border-color: var(--red);
+}
+
 ul {
   list-style: none;
 }
@@ -114,7 +138,7 @@ ul {
   position: relative;
   top: -120px;
   left: 0;
-  z-index: -10;
+  z-index: auto;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -151,6 +175,7 @@ ul {
   border: 2px solid var(--white);
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
+  z-index: 9999;
 }
 
 /* Forbes */
@@ -161,7 +186,7 @@ ul {
   position: relative;
   top: -340px;
   left: 0;
-  z-index: -10;
+  z-index: auto;
 }
 
 .forbes__img-bg {
@@ -195,6 +220,8 @@ ul {
   left: 0;
   top: -3px;
 }
+
+/* Day - Night */
 
 .day-night {
   width: 1440px;
@@ -254,6 +281,10 @@ ul {
   align-self: flex-end;
   margin: 0;
   z-index: -1;
+}
+
+.day-night__block .day-night__btn-day:hover {
+  background: var(--black);
 }
 
 /* Love It */
@@ -449,9 +480,9 @@ ul {
   background: var(--transparent);
 }
 
-.approach__btn:hover {
+/*.approach__btn:hover {
   background: var(--red);
-}
+}*/
 
 .approach__spring {
   width: 526px;
