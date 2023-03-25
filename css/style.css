@@ -114,14 +114,25 @@ ul {
   gap: 32px;
 }
 
-.header__logo {
-  width: 118px;
-  height: 46px;
+.header__link-logo {
+  padding: 7px;
+  border-radius: 3px;
   transition: all 0.2s ease-in-out;
 }
 
+.header__logo {
+  width: 118px;
+  height: 46px;
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.header__link-logo:hover {
+  background: var(--red);
+}
+
 .header__logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .header__cart {
@@ -486,10 +497,6 @@ ul {
   background: var(--transparent);
 }
 
-/*.approach__btn:hover {
-  background: var(--red);
-}*/
-
 .approach__spring {
   width: 526px;
   height: 65px;
@@ -616,6 +623,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 10;
 }
 
 .press__info-2 {
